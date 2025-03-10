@@ -153,3 +153,16 @@ img {
     margin-left: -5rem;
     margin-bottom: 0;
 }
+
+.project-images {
+    display: flex;
+    justify-content: space-between;  /* Or use space-around for more padding */
+    gap: 10px;  /* Optional: Adjusts spacing between images */
+    margin-top: 10px;
+}
+
+.project-img {
+    width: 30%;  /* Ensures images are of equal width */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
