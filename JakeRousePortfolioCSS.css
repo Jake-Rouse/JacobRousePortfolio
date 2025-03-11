@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+
 }
 
 body {
@@ -154,15 +155,18 @@ img {
     margin-bottom: 0;
 }
 
-.project-images {
+.Project-Images{
     display: flex;
-    justify-content: space-between;  /* Or use space-around for more padding */
-    gap: 10px;  /* Optional: Adjusts spacing between images */
-    margin-top: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+
 }
 
-.project-img {
-    width: 30%;  /* Ensures images are of equal width */
+.Proj-IMG{
+    width: 250px;
+    height: auto;
+    margin: 2rem;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
